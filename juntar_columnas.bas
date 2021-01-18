@@ -1,10 +1,11 @@
-Attribute VB_Name = "Módulo1"
-'Macro unir columnas
+Attribute VB_Name = "MÃ³dulo1"
+
+
 Sub unir_columnas()
-'Por Armando Valdés
+'Por Armando ValdÃ©s
 ci = Columns("A").Column 'columna inicial a unir
 cf = Columns("M").Column 'columna final a unir
-cd = Columns("n").Column 'columna unión
+cd = Columns("n").Column 'columna uniÃ³n
 f = 1 'fila inicial de datos (sin encabezados es "+2")
 For i = ci To cf
     uf = Cells(Rows.Count, i).End(xlUp).Row

@@ -2,7 +2,8 @@ Attribute VB_Name = "Módulo1"
 
 
 Sub unir_columnas()
-'Por Armando Valdés
+    'Por Armando Valdés
+    'Facebook_ cinta negra en excel
 ci = Columns("A").Column 'columna inicial a unir
 cf = Columns("M").Column 'columna final a unir
 cd = Columns("n").Column 'columna unión
